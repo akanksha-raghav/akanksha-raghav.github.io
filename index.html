@@ -192,10 +192,10 @@
         <div class="about-content">
             <div class="about-brief">
                 <h1>About Me</h1>
-                <p>I am a MERN Stack Developer, Mainframer & VUI developer with demonstrated
+                <p>I am a frontend Developer,Programmer & VUI developer with demonstrated
                     skills
                     building high quality web apps. I specialize in JavaScript and have
-                    experience working with Java, Python, Javascript, Cobol &
+                    experience working with Java, Python, Javascript,&
                     React.</p>
             </div>
 
@@ -221,14 +221,15 @@
                     </div>
                 </div>
                 <div class="tab-contents experience">
+                    <div class="tab-content link" onclick="window.open('https://www.cognizant.com/in/en');">
+                        <h3>Programmer Analyst Trainee</h3>
+                        <p>Cognizant Technology Solutions</p>
+                    </div>
                     <div class="tab-content link" onclick="window.open('https://studentcode-in.github.io/');">
                         <h3>Web Team Lead</h3>
                         <p>Student Code-in</p>
                     </div>
-                    <div class="tab-content link" onclick="window.open('http://mantras.vercel.app/');">
-                        <h3>Student Ambassador</h3>
-                        <p>IBMZ , Microsoft</p>
-                    </div>
+                    
                 </div>
                 <div class="tab-contents education">
                     <div class="tab-content link" onclick="window.open('http://www.galgotiasuniversity.edu.in/');">
@@ -246,6 +247,13 @@
         <h1 class="display-4">Tech I'm familiar with</h1>
             <div class="row pt-5">
                 
+                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    <div class="icon-box">
+                        <img class="tech-icon" src="assets/images/icons/java.png">
+                        <h3>Java</h3>
+                    </div>
+                </div>
+                
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box">
                         <img class="tech-icon" src="assets/images/icons/python.png">
@@ -254,16 +262,12 @@
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box">
-                        <img class="tech-icon" src="assets/images/icons/cpp.png">
-                        <h3>C++</h3>
+                        <img class="tech-icon" src="assets/images/icons/c.png">
+                        <h3>C</h3>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box">
-                        <img class="tech-icon" src="assets/images/icons/java.png">
-                        <h3>Java</h3>
-                    </div>
-                </div>
+               
+                
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box">
                         <img class="tech-icon" src="assets/images/icons/js.png">
@@ -345,9 +349,55 @@
         <div class="works">
 
             <div class="all-works project-content">
+                
+                    <div class="project-card">
+                    <img src="./assets/images/projects/notes.PNG" alt="Notes-App" class="project-img">
+                    <div class="card-content">
+                        <h4>Notes-App</h4>
+                        <h5><i class="website-i"></i>Web App</h5>
+                        <p>It is a note-taking app for the web.It is a static site without a database and does not sync your notes to the cloud. 
+                        </p>
+                        <p><br><strong>Technologies Used :</strong> HTML, &nbsp;CSS, &nbsp;Javascript etc.</p>
 
+                        <div class="card-icons">
+                            <div class="card-icon" rel="noopener"
+                                onclick="window.open('https://github.com/akanksha-raghav/NotesApp');">
+                                <i class="fa fa-github card-i"></i>
+                            </div>
+                            <div class="card-icon demo" rel="noopener"
+                                onclick="window.open('https://akanksha-raghav.github.io/NotesApp/');">
+                                <i class="fa fa-link card-i"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="project-card">
-                    <img src="./assets/images/projects/sci.PNG" alt="SCi" class="project-img">
+                    <img src="./assets/images/projects/voice.PNG" alt="Voice-to-Text" class="project-img">
+                    <div class="card-content">
+                        <h4>Voice-To-Text</h4>
+                        <h5><i class="website-i"></i>Web App</h5>
+                        <p>The Voice Note App's purpose is to test Web Speech API by using the browser interface to convert voice into text .
+                        </p>
+                        <p><br><strong>Technologies Used :</strong> HTML, &nbsp;CSS, &nbsp;Javascript, &nbsp;Web API, &nbsp;Bootstrap.</p>
+
+                        <div class="card-icons">
+                            <div class="card-icon" rel="noopener"
+                                onclick="window.open('https://github.com/akanksha-raghav/Voice-to-speech');">
+                                <i class="fa fa-github card-i"></i>
+                            </div>
+                            <div class="card-icon demo" rel="noopener"
+                                onclick="window.open('https://akanksha-raghav.github.io/Voice-to-speech/');">
+                                <i class="fa fa-link card-i"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card hidden-card">
+                    <img src="./assets/images/projects/sci.PNG" alt="SCI" class="project-img">
                     <div class="card-content">
                         <h4>Student Code-in</h4>
                         <h5><i class="website-i"></i>Website</h5>
@@ -369,22 +419,22 @@
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <img src="./assets/images/projects/mantra.PNG" alt="Mantras" class="project-img">
+                <div class="project-card hidden-card">
+                    <img src="./assets/images/projects/weather.PNG" alt="Weather" class="project-img">
                     <div class="card-content">
-                        <h4>Mantras</h4>
+                        <h4>Weather API</h4>
                         <h5><i class="website-i"></i>Web App</h5>
-                        <p>Student Mantras is a react based web application for listing various opportunities.
+                        <p>Weather API application to get information of the weather of different cities.
                         </p>
-                        <p><br><strong>Technologies Used :</strong> React, &nbsp;Semantic, &nbsp;Javascript etc.</p>
+                        <p><br><strong>Technologies Used :</strong> Handlebars, &nbsp;Semantic, &nbsp;Javascript etc.</p>
 
                         <div class="card-icons">
                             <div class="card-icon" rel="noopener"
-                                onclick="window.open('https://github.com/akanksha-raghav/Minor_Project');">
+                                onclick="window.open('https://github.com/akanksha-raghav/weatherAPI');">
                                 <i class="fa fa-github card-i"></i>
                             </div>
                             <div class="card-icon demo" rel="noopener"
-                                onclick="window.open('https://mantras.vercel.app/');">
+                                onclick="window.open('https://akanksha-weather-api.herokuapp.com/');">
                                 <i class="fa fa-link card-i"></i>
                             </div>
                         </div>
@@ -413,29 +463,7 @@
                     </div>
                 </div>
 
-                <!--div class="project-card hidden-card">
-                    <img src="./assets/images/projects/js-documentation.png" alt="JavaScript Documentation Website"
-                        class="project-img">
-                    <div class="card-content">
-                        <h4>JS Documentation</h4>
-                        <h5><i class="website-i"></i>Website</h5>
-                        <p>This is an unofficial documentation page of Javascript Language.</p>
-                        <p><br><strong>Technologies Used :</strong> HTML, &nbsp;CSS, &nbsp; JavaScript, &nbsp; jQuery
-                            etc.</p>
-
-                        <div class="card-icons">
-                            <div class="card-icon" rel="noopener"
-                                onclick="window.open('https://github.com/aromalanil/Javascript-Documentation');">
-                                <i class="fa fa-github card-i"></i>
-                            </div>
-                            <div class="card-icon demo" rel="noopener"
-                                onclick="window.open('https://js-documentation.netlify.com/');">
-                                <i class="fa fa-link card-i"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div--->
-
+                
             </div>
 
 
@@ -523,7 +551,7 @@
                             alt="github">
                             <i class="fa fa-github contact-social"></i>
                         </a>
-                        <a id="instagram" href="https://www.instagram.com/_ak_raghav_/" target="_blank" rel="noopener"
+                        <a id="instagram" href="https://www.instagram.com/akanksha/" target="_blank" rel="noopener"
                         alt="instagram">
                         <i class="fa fa-instagram contact-social"></i>
                     </a>
