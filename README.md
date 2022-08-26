@@ -4,7 +4,7 @@
 <div align="center">
   <img alt="Demo" src="./assets/images/demo.png" />
 </div>
-## Features
+<h2> Features </h2>
 
 ⚡️ Modern UI Design + Reveal Animations\
 ⚡️ One Page Layout\
