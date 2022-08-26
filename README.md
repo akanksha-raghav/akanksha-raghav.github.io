@@ -1,4 +1,9 @@
-# Portfolio Website
+<h1 align="center">
+  Portfolio Website<br/>
+</h2>
+<div align="center">
+  <img alt="Demo" src="assests/images/demo.png" />
+</div>
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
